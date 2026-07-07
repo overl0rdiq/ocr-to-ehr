@@ -1,0 +1,38 @@
+# This repo is documentation only, so keep code, models and anything sensitive out.
+
+# Code
+*.py
+*.ipynb
+*.js
+*.ts
+
+# Models and weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
+# Secrets and config
+.env
+*.env
+*.pem
+*.key
+id_rsa*
+credentials*
+secrets*
+
+# Data / PHI
+*.csv
+*.tsv
+*.json
+data/
+datasets/
+flywheel_data/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
